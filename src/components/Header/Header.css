@@ -1,0 +1,122 @@
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    top: 0;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 5px 8px -9px rgb(0 0 0 / 75%);
+}
+    .header .header_left {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    .header_left img{
+        height: 40px;
+    }
+
+    .header_left .header-input {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 999px;
+        background-color: #eff2f5;
+    }
+
+    .header_left .header-input input {
+        border: none;
+        outline-width: 0;
+        background-color: transparent;
+        margin-left: 12px;
+        font-size: 15px;
+    }
+
+    .header_left .header-input i {
+        font-size: 20px;
+        color: gray;
+    }
+
+    /* HEADER-MID */
+    .header .header_mid {
+        display: flex;
+        justify-content: center;
+        /* flex: 1; */
+    }
+
+    .header_mid .heder-option {
+        padding: 0 30px;
+        font-size: 24px;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_mid .heder-option:hover {
+        background-color: #eff2f5;
+        border-radius: 10px;
+        border-bottom: none;
+    }
+
+    .header_mid .active {
+        color: #2e81f4;
+        border-bottom: 4px solid #2e81f4;
+    }
+
+    /* HEADER_RIGHT */
+    .header .header_right {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_right .header-info {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    .header_right .header-info:hover {
+        background-color: rgb(216,218,223);
+        cursor: pointer;
+        border-radius: 10px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+
+    .header_right .header-info h4 {
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+
+    .header_right .header_right-option {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        background-color: #eff2f5;
+        border-radius: 50%;
+        height: 40px;
+        margin-left: 12px;
+        justify-content: center;
+        width: 40px;
+    }
+
+    .header_right .header_right-option:hover {
+        background-color: rgb(216,218,223);
+        cursor: pointer;
+    }
+
+
+
+

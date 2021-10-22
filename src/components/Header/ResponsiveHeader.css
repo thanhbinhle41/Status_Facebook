@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+
+    .header .header_left .header-input input {
+        display: none;
+    }
+
+
+    .header .header_right .header-info {
+        display: none;
+    }
+}

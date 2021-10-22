@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+ 
+    .status_wrapper {
+        width: 60%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+}
